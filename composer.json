@@ -1,0 +1,18 @@
+{
+    "name": "webdevelopment-barlian/demo-rte-fields",
+    "type": "typo3-cms-extension",
+    "description": "Demonstration about RTE fields in forms for TYPO3 extensions, includes marginal sitepackage",
+    "homepage": "https://github.com/DavidBruchmann",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "typo3/cms-core": "^10.2",
+        "typo3/cms-rte-ckeditor": "^10.2",
+        "typo3/cms-fluid-styled-content": "^10.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebdevelopmentBarlian\\DemoRteFields\\": "Classes/"
+        }
+    }
+}
