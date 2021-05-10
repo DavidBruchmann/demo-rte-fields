@@ -1,0 +1,68 @@
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+* text=auto
+
+# Force the following filetypes to have unix eols, so Windows does not break them
+*.* text eol=lf
+
+# Windows forced line-endings
+/.idea/* text eol=crlf
+
+#
+## Binary files should be left untouched
+#
+
+# (binary is a macro for -text -diff)
+# images
+*.ai binary
+*.apng binary
+*.avif binary
+*.cur binary
+*.gif binary
+*.ico binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.psd binary
+*.webp binary
+*.svgz binary
+# media:
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.wav binary
+*.avi binary
+# outdated flash:
+*.flv binary
+*.fla binary
+*.swf binary
+# archives:
+*.bz2 binary
+*.gz binary
+*.tgz binary
+*.rar binary
+*.zip binary
+*.7z binary
+# font-files:files
+*.ttf binary
+*.eot binary
+*.woff binary
+*.woff2 binary
+*.otf binary
+# misc.:
+*.pyc binary
+*.pdf binary
+*.ez binary
+*.swp binary
+*.sqlite
+# OPTIONAL: add office documents:
+*.docx binary
+*.doc binary
+*.xlsx binary
+*.xls binary
+*.odb binary
+*.odf binary
+*.odg binary
+*.odp binary
+*.ods binary
+*.odt binary
